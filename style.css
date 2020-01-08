@@ -65,15 +65,56 @@ nav a {
 }
 
 #welcome-section h1 {
-    font-family: 'Sniglet', sans-serif;
+    font-family: 'Sniglet', cursive;
     font-size: 88px;
     color: white;
 }
 
 #welcome-section p {
-    font-family: 'Caveat', sans-serif;
+    font-family: 'Caveat', cursive;
     font-size: 48px;
     font-weight: 200;
     color: yellow;
 }
 
+#projects {
+    text-align: center;
+    padding: 90px 32px;
+    background-color: rgb(4, 98, 134);
+}
+
+#projects > h2 {
+    font-size: 50px;
+    font-family: 'Merryweather Sans', sans-serif;
+    color: white;
+    border-bottom: 3px solid white;
+    margin: 0 auto 96px auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 25px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 1200px;
+}
+
+.project {
+    background: rgb(219, 215, 215);
+    box-shadow: 1px 1px 2px black;
+    border-radius: 2px;
+}
+
+.project p {
+    font-family: 'Heebo', sans-serif;
+    color: black;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
