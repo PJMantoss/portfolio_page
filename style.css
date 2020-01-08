@@ -1,3 +1,47 @@
 body {
-    background-color: rgb(99, 98, 98);
+    background-color: rgb(141, 139, 139);
+}
+
+nav {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(196, 46, 71);
+    position: fixed;
+    box-shadow: 0 2px 0 black;
+}
+
+nav > ul {
+    display: flex;
+    margin-right: 32px; 
+}
+
+nav li {
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    nav > ul {
+        flex-direction: column;
+    }
+}
+
+#welcome-section {
+    background-color: rgb(15, 15, 15);
 }
