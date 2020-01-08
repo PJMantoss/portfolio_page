@@ -1,7 +1,7 @@
 /*Base reset*/
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 html {
@@ -23,6 +23,7 @@ nav {
     background-color: rgb(196, 46, 71);
     position: fixed;
     box-shadow: 0 2px 0 black;
+    height: 12vh;
 }
 
 nav > ul {
@@ -35,7 +36,7 @@ nav li {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 18px;
-    padding: 0 20px;
+    padding: 15px;
 }
 
 nav a {
@@ -46,11 +47,10 @@ nav a {
 @media (max-width: 600px) {
     nav {
         justify-content: center;
-        flex-wrap: wrap;
     }
 
     nav > ul {
-        flex-direction: column;
+        margin: 0 16px;
     }
 }
 
