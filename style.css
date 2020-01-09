@@ -118,3 +118,8 @@ img {
     display: block;
     width: 100%;
 }
+
+.grid #see-all {
+    background-color: pink;
+    
+}
