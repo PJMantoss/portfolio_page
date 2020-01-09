@@ -71,6 +71,7 @@ nav a {
 }
 
 #welcome-section p {
+    margin-top: 3px;
     font-family: 'Caveat', cursive;
     font-size: 48px;
     font-weight: 200;
@@ -110,7 +111,7 @@ nav a {
     text-decoration: none;
 }
 
-.project p {
+.project-tile p {
     font-family: 'Heebo', sans-serif;
     color: black;
     background-color: lightgreen;
@@ -196,6 +197,13 @@ img {
     color: pink;
 }
 
+@media (max-width: 600px){
+    .contact-links > a {
+        font-size: 24px;
+        flex-direction: column;
+    }
+}
+
 footer {
     background-color: rgb(44, 43, 43);
     display: flex;
@@ -209,6 +217,7 @@ footer {
 footer > span {
     margin: 5px;
     font-weight: 100;
+    color: white;
 }
 
 span > a {
