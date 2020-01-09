@@ -144,3 +144,75 @@ img {
     color: black;;
     transform: scale(1.02)
 }
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(44, 43, 43);
+    height: 70vh;
+    width: 100%;
+}
+
+.contact-header > h2{
+    font-size: 90px;
+    font-family: 'Sniglet', cursive;
+    color: white;
+    line-height: 0.9;
+}
+
+.contact-header > p {
+    font-family: 'Caveat', sans-serif;
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+@media (max-width: 600px) {
+    .contact-header > h2 {
+        font-size: 40px;
+    }
+
+    .contact-header > p {
+        font-size: 25px;
+    }
+}
+
+.contact_links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.contact-links > a {
+    font-size: 32px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Courgette', cursive;
+    color: pink;
+}
+
+footer {
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border: none;
+    border-top: 5px solid rgb(196, 46, 71);
+    padding: 20px 0;
+}
+
+footer > span {
+    margin: 5px;
+    font-weight: 100;
+}
+
+span > a {
+    text-decoration: none;
+    color: pink;
+    text-shadow: 1px 1px 1px black;
+}
