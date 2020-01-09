@@ -107,14 +107,40 @@ nav a {
     background: rgb(219, 215, 215);
     box-shadow: 1px 1px 2px black;
     border-radius: 2px;
+    text-decoration: none;
 }
 
 .project p {
     font-family: 'Heebo', sans-serif;
     color: black;
+    background-color: lightgreen;
+    font-weight: 600;
 }
 
 img {
     display: block;
     width: 100%;
+}
+
+.btn{
+    text-decoration: none;
+}
+
+.btn > input {
+    width: 30%;
+    height: 30px;
+    background-color: rgb(243, 63, 93);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn > input:hover{
+    background-color: pink;
+    color: black;;
+    transform: scale(1.02)
 }
