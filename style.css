@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -109,6 +114,7 @@ nav a {
     color: black;
     background-color: lightgreen;
     font-weight: 600;
+    width: 100%;
 }
 
 img {
