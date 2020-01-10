@@ -111,7 +111,7 @@ nav a {
     text-decoration: none;
 }
 
-.project-tile p {
+.project-tile > p {
     font-family: 'Heebo', sans-serif;
     color: black;
     background-color: lightgreen;
@@ -180,7 +180,7 @@ img {
     }
 }
 
-.contact_links {
+.contact-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
