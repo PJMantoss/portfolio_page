@@ -42,7 +42,7 @@ nav a {
     color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 770px) {
     nav {
         justify-content: center;
     }
@@ -76,7 +76,7 @@ nav a {
     color: yellow;
 }
 
-@media (max-width: 600px){
+@media (max-width: 850px){
     #welcome-section {
         margin-top: 5px;
     }
@@ -212,7 +212,7 @@ img {
     color: pink;
 }
 
-@media (max-width: 600px){
+@media (max-width: 850px){
     #contact {
         height: auto;
     }
